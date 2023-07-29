@@ -1,0 +1,96 @@
+.Container {
+  display: flex;
+  height: calc(100vh - 120px - 36px);
+  width: calc(100vw - 120px - 36px);
+  margin: 60px;
+  border: #969696 solid 18px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container2 {
+  display: grid;
+  border-radius: 15px;
+  height: 90%;
+  width: 90%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 15% 1fr;
+}
+
+.cabecalho1 {
+  color: white;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: #969696 solid 4px;
+  border-right: #969696 solid 4px;
+}
+
+.cabecalho2 {
+  color: white;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: #969696 solid 4px;
+  border-left: #969696 solid 3px;
+  border-right: #969696 solid 4px;
+}
+
+.cabecalho3 {
+  color: white;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: #969696 solid 4px;
+  border-left: #969696 solid 3px;
+}
+
+.tarefas1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-right: #969696 solid 4px;
+  border-top: #969696 solid 3px;
+  overflow-y: auto;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.tarefas1::-webkit-scrollbar {
+  display: none;
+}
+
+.tarefas2 {
+  border-right: #969696 solid 4px;
+  border-left: #969696 solid 3px;
+  border-top: #969696 solid 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.tarefas2::-webkit-scrollbar {
+  display: none;
+}
+
+.tarefas3 {
+  border-left: #969696 solid 3px;
+  border-top: #969696 solid 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  overflow-y: auto;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.tarefas3::-webkit-scrollbar {
+  display: none;
+}

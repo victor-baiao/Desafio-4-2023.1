@@ -1,0 +1,53 @@
+.card {
+  background-color: #846351;
+  border-radius: 15px;
+  height: 100px;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 30px 1fr;
+}
+
+.cardSon1 {
+  grid-column: span 2;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: #969696 solid 1px;
+}
+
+.cardSon2 {
+  color: white;
+  font-size: 16px;
+  display: grid;
+  border-right: #969696 solid 1px;
+  grid-template-columns: 40px 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.cardSon2 > img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.cardSon2 > p {
+  font-size: 13px;
+  margin: 0;
+  justify-self: flex-start;
+}
+
+.cardSon3 > p {
+  color: white;
+  font-size: 13px;
+  margin: 5px;
+  justify-self: flex-start;
+  overflow-y: auto;
+  overflow-x: auto;
+  overflow-wrap: break-word;
+}
